@@ -1,5 +1,12 @@
 # uni-vscode-template
 
+## 项目预置
+
+1. 已安装`sass`,`sass-loader`，组件支持写`scss`
+2. 已安装`uview-ui`，有相关扩展提示`uView`语法，已配置`easycom`
+3. 相关扩展提供`pages.json`/`manifest.json`语法提示，颜色块展示
+4. 条件编译注释`高亮`
+
 ## 项目中推荐安装的 VSCode 扩展
 
 - `Vetur`：写 vue 必装
@@ -22,24 +29,18 @@
 
 > **提示**：在`.vscode`文件夹中的`settings.json`已经做好了扩展的相关配置。
 
-## Project setup
+## 项目启动，实时更新到微信开发者工具
 
-```
-npm install
-```
+### 在`manifest.json`配置`appid`
 
-### Compiles and hot-reloads for development
+![image-20220311210618223](https://s2.loli.net/2022/03/11/azJ7UvTI4nANouY.png)
 
-```
-npm run serve
-```
+### 快速运行项目，也可以在终端手写
 
-### Compiles and minifies for production
+![image-20220311210522021](https://s2.loli.net/2022/03/11/BtgTDEdsWwhRCqc.png)
 
-```
-npm run build
-```
+### 在微信开发者工具导入
 
-### Customize configuration
+![image-20220311210959424](https://s2.loli.net/2022/03/11/EXafy6QIJ7219LV.png)
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+然后，我们就可以在微信开发者工具实时更新我们最新的代码
