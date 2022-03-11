@@ -18,6 +18,8 @@
 
 - Better Comments：
 
+- Path Intellisense：
+
   
 
 > **提示**：在`.vscode`文件夹中已经做好了扩展的相关配置。
