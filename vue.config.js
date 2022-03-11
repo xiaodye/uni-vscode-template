@@ -4,10 +4,9 @@ module.exports = {
       entry: "src/main.js",
     },
   },
-  lintOnSave: false, //关闭语法检查
+  lintOnSave: false,
   configureWebpack: {
     resolve: {
-      // 路径别名
       alias: {
         static: "@/static",
         components: "@/components",

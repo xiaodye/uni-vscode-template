@@ -6,6 +6,7 @@
   "color-highlight.markRuler": false,
   "color-highlight.matchWords": false,
 
+  // "快速创建uniapp视图与组件!"，默认scss
   "create-uniapp-view.style": "scss",
   "create-uniapp-view.typescript": false,
   "create-uniapp-view.directory": true,
