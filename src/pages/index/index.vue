@@ -4,7 +4,7 @@
     <view>
       <text class="title">{{ title }}</text>
     </view>
-    <u-button type="error" text="uni-vscode-template"></u-button>
+    <u-button type="primary" text="uni-vscode-template"></u-button>
   </view>
 </template>
 
