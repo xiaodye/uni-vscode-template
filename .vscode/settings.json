@@ -2,11 +2,41 @@
   // pages.json显示颜色块
   "color-highlight.enable": true,
   "color-highlight.markerType": "dot-before",
-  "color-highlight.languages": ["json", "jsonc"],
+  "color-highlight.languages": ["jsonc"],
+  "color-highlight.markRuler": false,
+  "color-highlight.matchWords": false,
 
   "create-uniapp-view.style": "scss",
+  "create-uniapp-view.typescript": false,
+  "create-uniapp-view.directory": true,
 
-  // 条件编译
+  // 路径提示
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src/"
+  },
+
+  // 文件映射，json文件写注释
+  "files.associations": {
+    "pages.json": "jsonc",
+    "manifest.json": "jsonc"
+  },
+
+  // vue格式化程序配置
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur",
+    // "editor.defaultFormatter": "johnsoncodehk.volar",
+    "editor.tabSize": 2
+  },
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "printWidth": 130,
+      "singleQuote": false,
+      "tabWidth": 2,
+      "htmlWhitespaceSensitivity": "ignore"
+    }
+  },
+
+  // 条件编译注释颜色
   "better-comments.tags": [
     {
       "tag": "#",
