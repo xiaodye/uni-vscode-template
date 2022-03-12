@@ -25,7 +25,7 @@
 - `uni-ui-snippets`
 - `uni-app-snippets`
 
-> **提示**：在`.vscode`文件夹中的`settings.json`已经做好了扩展的相关配置。
+> **提示**：在`.vscode`文件夹中的`settings.json`已经做好了扩展的相关配置。不过更建议创建`vscode工作区`，配置放在工作区，更好地去管理扩展。[VSCode 工作区指南：回归轻量，成为全能编辑器](https://juejin.cn/post/7066032710778617892)
 
 ## 项目启动，实时更新到微信开发者工具
 
