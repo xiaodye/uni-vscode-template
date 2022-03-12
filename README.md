@@ -5,20 +5,18 @@
 1. 已安装`sass`,`sass-loader`，组件支持写`scss`
 2. 已安装`uview-ui`，有相关扩展提示`uView`语法，已配置`easycom`
 3. 相关扩展提供`pages.json`/`manifest.json`语法提示，颜色块展示
-3. 相关扩展提供`uni.scss`变量提示
-4. 条件编译注释`高亮`
+4. 相关扩展提供`uni.scss`变量提示
+5. 条件编译注释`高亮`
 
 ## 项目中推荐安装的 VSCode 扩展
 
-- `Vetur`：写 vue 必装
-- `Vue 3 Snippets`：vue 语法提示
 - `Sass`：sass/scss 文件支持
+- `SCSS IntelliSense`：可以提示`uni.scss`定义的变量
 - `uni-app-schemas`：pages.json/manifest.json 语法提示
 - `uniapp小程序扩展`：原生组件/uView 组件提示
 - `create-uniapp-view`：快速创建 uniapp 视图/组件/分包
 - `Color Highlight`：pages.json 颜色块显示
 - `Better Comments`：条件编译注释颜色显示
-- `SCSS IntelliSense`：可以提示`uni.scss`定义的变量
 - `Path Intellisense`：智能路径提示
 
 ### 可选扩展
