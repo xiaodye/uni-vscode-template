@@ -10,10 +10,16 @@
   "create-uniapp-view.style": "scss",
   "create-uniapp-view.typescript": false,
   "create-uniapp-view.directory": true,
+  "create-uniapp-view.name": "与文件夹同名",
+
+  "uniapp-vscode.jsAutoApi": false,
+  "uniapp-vscode.jsAutoCompletion": false,
+  "uniapp-vscode.jsHover": false,
 
   // 路径提示
   "path-intellisense.mappings": {
-    "@": "${workspaceRoot}/src/"
+    "@": "${workspaceRoot}/src/",
+    "static": "${workspaceRoot}/src/static"
   },
 
   // 文件映射，json文件写注释
@@ -26,6 +32,8 @@
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur",
     // "editor.defaultFormatter": "johnsoncodehk.volar",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+
     "editor.tabSize": 2
   },
   "vetur.format.defaultFormatterOptions": {
@@ -33,6 +41,7 @@
       "printWidth": 130,
       "singleQuote": false,
       "tabWidth": 2,
+      "semi": false,
       "htmlWhitespaceSensitivity": "ignore"
     }
   },
@@ -41,56 +50,11 @@
   "better-comments.tags": [
     {
       "tag": "#",
-      "color": "#CAB8FF",
+      "color": "#18b566",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "!",
-      "color": "#FF2D00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "?",
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "todo",
-      "color": "#FF8C00",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "*",
-      "color": "#98C379",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
+      "bold": true,
       "italic": false
     }
   ]
