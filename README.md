@@ -1,44 +1,33 @@
-# uni-vscode-template
+## **简述一下**这个模板给VSCode开发` uni-app`带来的体验
 
-## 项目预置
+已经预置了`sass`、`sass-loader`、`uview-ui`，并做了**easycom**相关配置。
 
-1. 已安装`sass`,`sass-loader`，组件支持写`scss`
-2. 已安装`uview-ui`，有相关扩展提示`uView`语法，已配置`easycom`
-3. 相关扩展提供`pages.json`/`manifest.json`语法提示，颜色块展示
-4. 相关扩展提供`uni.scss`变量提示
-5. 条件编译注释`高亮`
 
-## 项目中推荐安装的 VSCode 扩展
 
-- `Sass`：sass/scss 文件支持
-- `SCSS IntelliSense`：可以提示`uni.scss`定义的变量
-- `uni-app-schemas`：pages.json/manifest.json 语法提示
-- `uniapp小程序扩展`：原生组件/uView 组件提示
-- `create-uniapp-view`：快速创建 uniapp 视图/组件/分包
-- `Color Highlight`：pages.json 颜色块显示
-- `Better Comments`：条件编译注释颜色显示
-- `Path Intellisense`：智能路径提示
+- 增强`pages.json`和`manifest.json`开发体验（语法提示、颜色块、写注释）
+- 一键创建页面、组件、分包
+- 完善的`API`，组件，uni.scss语法提示
+- 条件编译注释高亮
 
-### 可选扩展
 
-- `uni-cloud-snippets`
-- `uni-ui-snippets`
-- `uni-app-snippets`
 
-> **提示**：在`.vscode`文件夹中的`settings.json`已经做好了扩展的相关配置。不过更建议创建`vscode工作区`，配置放在工作区，更好地去管理扩展。[VSCode 工作区指南：回归轻量，成为全能编辑器](https://juejin.cn/post/7066032710778617892)
+> **详细的教程请看**：[这可能是最好、最详细的VSCod开发uni-app教程吧](https://juejin.cn/post/7090532271257714695)。
 
-## 项目启动，实时更新到微信开发者工具
+## 项目配置
 
-### 在`manifest.json`配置`appid`
+![image-20220429134331265](https://s2.loli.net/2022/04/29/foQDHulNeEwhcAi.png)
 
-![image-20220311210618223](https://s2.loli.net/2022/03/11/azJ7UvTI4nANouY.png)
+## 运行项目
 
-### 快速运行项目，也可以在终端手写
+对应的命令在`package.json`，中，可以自行查看。
 
-![image-20220311210522021](https://s2.loli.net/2022/03/11/BtgTDEdsWwhRCqc.png)
+```bash
+npm run dev: %PLATFORM%
+```
 
-### 在微信开发者工具导入
+## 发布项目
 
-![image-20220311210959424](https://s2.loli.net/2022/03/11/EXafy6QIJ7219LV.png)
+```bash
+npm run build: %PLATFORM%
+```
 
-然后，我们就可以在微信开发者工具实时更新我们最新的代码
