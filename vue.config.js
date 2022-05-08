@@ -9,10 +9,6 @@ module.exports = {
     resolve: {
       alias: {
         static: "@/static",
-        components: "@/components",
-        pages: "@/pages",
-        subPackages: "@/subPackages",
-        utils: "@/utils",
       },
     },
   },

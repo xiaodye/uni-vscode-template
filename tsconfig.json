@@ -1,6 +1,0 @@
-{
-  "compilerOptions": {
-    "types": ["@dcloudio/types", "miniprogram-api-typings", "mini-types"]
-  },
-  "files": ["index.ts"]
-}
