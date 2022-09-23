@@ -4,39 +4,16 @@
   "create-uniapp-view.style": "scss",
   "create-uniapp-view.typescript": false,
   "create-uniapp-view.directory": true,
-  "create-uniapp-view.name": "与文件夹同名",
+  "create-uniapp-view.name": "index",
 
   "uniapp-vscode.jsAutoApi": false,
   "uniapp-vscode.jsAutoCompletion": false,
   "uniapp-vscode.jsHover": false,
 
-  // 路径提示
-  "path-intellisense.mappings": {
-    "@": "${workspaceRoot}/src/"
-  },
-
   // 文件映射，json文件写注释
   "files.associations": {
     "pages.json": "jsonc",
     "manifest.json": "jsonc"
-  },
-
-  // vue格式化程序配置
-  "[vue]": {
-    "editor.defaultFormatter": "octref.vetur",
-    // "editor.defaultFormatter": "johnsoncodehk.volar",
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-    "editor.tabSize": 2
-  },
-  "vetur.format.defaultFormatterOptions": {
-    "prettier": {
-      "printWidth": 130,
-      "singleQuote": false,
-      "tabWidth": 2,
-      "semi": false,
-      "htmlWhitespaceSensitivity": "ignore"
-    }
   },
 
   // 条件编译注释颜色
