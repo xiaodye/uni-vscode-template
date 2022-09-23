@@ -14,7 +14,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "types": ["@dcloudio/types", "@types/wechat-miniprogram"]
+    "types": ["@dcloudio/types", "@types/wechat-miniprogram", "uni-app-types", "uni-cloud-types"]
+  },
+  "vueCompilerOptions": {
+    "experimentalRuntimeMode": "runtime-uni-app"
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
