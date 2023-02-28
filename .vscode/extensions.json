@@ -1,7 +1,7 @@
 {
   "recommendations": [
     "mrmaoddxxaa.create-uniapp-view",
-    "modyqyw.vscode-uni-app-schemas",
+    "uni-helper.uni-app-schemas-vscode",
     "aaron-bond.better-comments",
     "mrmlnc.vscode-scss",
     "christian-kohler.path-intellisense"
