@@ -5,8 +5,6 @@
 - 完善的`API`，组件，uni.scss 语法提示
 - 条件编译注释高亮
 
-> **详细的教程请看**：[这可能是最好、最详细的 VSCod 开发 uni-app 教程吧](https://juejin.cn/post/7090532271257714695)。
-
 ## 项目配置
 
 ![image-20220429134331265](https://s2.loli.net/2022/04/29/foQDHulNeEwhcAi.png)
